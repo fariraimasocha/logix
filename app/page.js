@@ -1,9 +1,8 @@
-import LogoGenerator from "@/components/LogoGenerator";
-
+import Main from "@/components/Main";
 export default function Home() {
   return (
-    <div className="text-gray-400">
-      <LogoGenerator />
+    <div className="">
+      <Main />
     </div>
   );
 }
