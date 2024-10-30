@@ -32,9 +32,6 @@ export default function LogoGenerator() {
     return (
         <div className="min-h-screen bg-gray-50 p-8">
             <div className="max-w-6xl mx-auto">
-                <Image src="/logo/logo.png" alt='my logo' width={100} height={100} />
-                <h1 className="text-xl font-bold text-gray-800 px-2 mb-8">Logo Generator</h1>
-
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <ControlPanel
                         selectedIcon={selectedIcon}
