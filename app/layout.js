@@ -18,7 +18,10 @@ export default function RootLayout({ children }) {
         className=""
       >
         <Navbar />
-        {children}
+        <div className="px-5">
+          {/**Ensure that the padding/layout of the contents is the same, nav is px-5, make sure the children are px-5 too */}
+          {children}
+        </div>
         <Footer />
       </body>
     </html >
