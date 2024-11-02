@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Navbar() {
     return (
-        <div className=''>
+        <div className='font-akaya'>
             <nav className='justify-between flex px-10 py-3'>
                 <div id='logo' className='flex space-x-2'>
                     <Image src='/logo/logo.png' width={50} height={50} alt='no logo' />
