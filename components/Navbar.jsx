@@ -8,9 +8,15 @@ import { usePathname } from 'next/navigation'
 export default function Navbar() {
     const pathname = usePathname();
     return (
+
         <div className=''>
             <nav className='justify-between flex px-5 py-3 items-center'>
                 <Link href="/" id='logo' className='flex space-x-2'>
+
+        <div className='font-akaya'>
+            <nav className='justify-between flex px-10 py-3'>
+                <div id='logo' className='flex space-x-2'>
+
                     <Image src='/logo/logo.png' width={50} height={50} alt='no logo' />
                     <h2 className='text-2xl mt-2 font-semibold'>Logix</h2>
 
